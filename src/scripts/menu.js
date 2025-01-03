@@ -1,3 +1,5 @@
+import '../styles/menu.css';
+
 function menuPage() {
     const content = document.querySelector('#content');
 

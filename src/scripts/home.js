@@ -1,3 +1,5 @@
+import '../styles/home.css';
+
 function homePage() {
     const content = document.querySelector('#content');
 

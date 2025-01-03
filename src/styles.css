@@ -1,0 +1,64 @@
+/*
+#654B38
+#6B5B51
+#9E9A9A
+#EEECDA
+#FAFBFA
+*/
+
+/*
+#281E18
+#572D0C
+#C78E3A
+#E3B76A
+#FDFCD4
+*/
+
+html,
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body{
+    /* background-image:url('assets/coffee-beans.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #EEECDA;
+    color: #FAFBFA;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+    background-color: #654B38;
+}
+
+header button {
+    border-style: none;
+    background-color: #9E9A9A;
+    width: 100px;
+    height: 50px;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 810px;
+    background-color: #6B5B51;
+}
+
+.footer {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    font-size: 14px;
+}

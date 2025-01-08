@@ -3,3 +3,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
+
+.menu-item {
+    font-size: 1.1rem;
+    padding: 5px;
+}

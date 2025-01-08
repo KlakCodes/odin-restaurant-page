@@ -18,6 +18,7 @@ function contactPage() {
     telHeader.textContent = 'Telephone'
     
     const telephone = document.createElement('p');
+    telephone.classList.toggle('contact-telephone');
     telephone.textContent = 'Coming soon!';
 
     content.appendChild(telHeader);

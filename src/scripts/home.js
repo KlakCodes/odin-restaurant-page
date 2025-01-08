@@ -19,6 +19,10 @@ function homePage() {
 
     content.appendChild(about);
 
+    // Divider
+    const divider1 = document.createElement('hr');
+    content.appendChild(divider1);
+
     // Home - Opening Hours
     const openingHours = document.createElement('div');
     openingHours.classList.toggle('home-hours');
@@ -58,6 +62,10 @@ function homePage() {
     openingHours.appendChild(hoursList);
 
     content.appendChild(openingHours);
+    
+    // Divider
+    const divider2 = document.createElement('hr');
+    content.appendChild(divider2);
 
     // Home - Location
     const location = document.createElement('div');

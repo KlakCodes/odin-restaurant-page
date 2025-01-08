@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-size: 20px;
 }
 
 body{
@@ -36,8 +37,9 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    padding-top: 10px;
+    padding-top: 15px;
     background-color: #654B38;
+    margin-bottom: 20px;
 }
 
 header button {
@@ -45,15 +47,31 @@ header button {
     background-color: #9E9A9A;
     width: 100px;
     height: 50px;
+    font-size: 0.9rem;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #content {
     margin: 0 auto;
     max-width: 810px;
+    width: 66.6%;
     background-color: #6B5B51;
+    border-radius: 10px;;
+    padding: 0px 30px 30px 30px;
 }
 
-.footer {
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    font-size: 1.5rem;
+}
+
+/* .footer {
+    justify-self: flex-end;
     display: flex;
     flex: 1 1 auto;
     margin: 10px;
@@ -61,4 +79,4 @@ header button {
     align-items: flex-end;
     color: black;
     font-size: 14px;
-}
+} */

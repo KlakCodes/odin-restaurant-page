@@ -70,6 +70,11 @@ h2 {
     font-size: 1.5rem;
 }
 
+.bean {
+    content:url('assets/coffee-bean.svg');
+    height: 50px;
+}
+
 /* .footer {
     justify-self: flex-end;
     display: flex;

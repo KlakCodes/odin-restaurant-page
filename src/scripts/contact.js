@@ -30,10 +30,24 @@ function contactPage() {
     emailHeader.textContent = 'Email';
 
     const email = document.createElement('p');
+    email.classList.toggle('contact-email');
     email.textContent = 'norse.roast@norsemail.com';
 
     content.appendChild(emailHeader);
     content.appendChild(email);
+
+    // Divider
+    const divider1 = document.createElement('hr');
+    content.appendChild(divider1);
+
+    // Contact - Footer
+    const footer = document.createElement('div');
+    footer.classList.toggle('contact-footer');
+    const bean = document.createElement('image');
+    bean.classList.toggle('bean');
+    footer.appendChild(bean);
+
+    content.appendChild(footer);
 }
 
 export default contactPage;

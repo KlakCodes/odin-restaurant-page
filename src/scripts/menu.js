@@ -26,6 +26,19 @@ function menuPage() {
         
         menuContainer.appendChild(itemCard);
     })
+
+    // Divider
+    const divider1 = document.createElement('hr');
+    content.appendChild(divider1);
+
+    // Menu - Footer
+    const footer = document.createElement('div');
+    footer.classList.toggle('menu-footer');
+    const bean = document.createElement('image');
+    bean.classList.toggle('bean');
+    footer.appendChild(bean);
+
+    content.appendChild(footer);
 }
 
 export default menuPage;

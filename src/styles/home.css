@@ -1,7 +1,8 @@
 .home-header,
 .home-about,
 .home-hours,
-.home-location {
+.home-location,
+.home-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,4 +22,8 @@
 
 .home-location {
     font-size: 1.1rem;
+}
+
+.home-footer {
+    margin-top: 25px;
 }

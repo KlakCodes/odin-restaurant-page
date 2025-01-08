@@ -78,6 +78,19 @@ function homePage() {
     location.appendChild(locationAddress);
 
     content.appendChild(location);
+
+    // Divider
+    const divider3 = document.createElement('hr');
+    content.appendChild(divider3);
+
+    // Home - Footer
+    const footer = document.createElement('div');
+    footer.classList.toggle('home-footer');
+    const bean = document.createElement('image');
+    bean.classList.toggle('bean');
+    footer.appendChild(bean);
+
+    content.appendChild(footer);
 }
 
 export default homePage;

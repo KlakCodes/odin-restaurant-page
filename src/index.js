@@ -28,3 +28,7 @@ function clearContent() {
     const content = document.querySelector('#content');
     content.innerHTML = '';
 }
+
+const devFooter = document.querySelector('.footer');
+const year = new Date().getFullYear();
+devFooter.textContent = `Copyright © ${year} KlakCodes`;

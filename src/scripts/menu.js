@@ -12,6 +12,10 @@ function menuPage() {
 
     content.appendChild(header);
 
+    // Divider
+    const divider1 = document.createElement('hr');
+    content.appendChild(divider1);
+
     // Menu - Items
     const menuContainer = document.createElement('div');
     menuContainer.classList.toggle('menu-container');
@@ -28,8 +32,8 @@ function menuPage() {
     })
 
     // Divider
-    const divider1 = document.createElement('hr');
-    content.appendChild(divider1);
+    const divider2 = document.createElement('hr');
+    content.appendChild(divider2);
 
     // Menu - Footer
     const footer = document.createElement('div');

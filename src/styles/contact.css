@@ -1,6 +1,9 @@
-.contact-telephone,
-.contact-email {
+.contact-telephone {
     margin-bottom: 40px;
+}
+
+.contact-email {
+    margin-bottom: 25px;
 }
 
 .contact-footer {

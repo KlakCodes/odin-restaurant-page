@@ -12,6 +12,10 @@ function contactPage() {
 
     content.appendChild(header);
 
+    // Divider
+    const divider1 = document.createElement('hr');
+    content.appendChild(divider1);
+
     // Contact - Telephone
     const telHeader = document.createElement('h2');
     telHeader.classList.toggle('contact-subHeader');
@@ -37,8 +41,8 @@ function contactPage() {
     content.appendChild(email);
 
     // Divider
-    const divider1 = document.createElement('hr');
-    content.appendChild(divider1);
+    const divider2 = document.createElement('hr');
+    content.appendChild(divider2);
 
     // Contact - Footer
     const footer = document.createElement('div');

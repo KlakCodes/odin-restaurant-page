@@ -43,6 +43,10 @@ header button {
     font-family: 'norsebold';
 }
 
+header button:hover {
+    background-color: #EEECDA;
+}
+
 #content {
     background-image: url('assets/wave_1.svg');
     background-position: bottom;
